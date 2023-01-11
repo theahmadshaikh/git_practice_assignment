@@ -8,11 +8,11 @@ for(let i=2;i<(n**(1/2));i++)
 	}	
 }
 
-if(count==0)
+if(!count)
 {
-console.log("Not Prime");
+console.log(" Prime");
 }
 else
 {
-console.log("Prime");
+console.log("Not Prime");
 }
